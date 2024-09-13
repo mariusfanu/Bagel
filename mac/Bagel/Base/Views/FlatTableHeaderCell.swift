@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import macOSThemeKit
+
 
 class FlatTableHeaderCell: NSTableHeaderCell {
 

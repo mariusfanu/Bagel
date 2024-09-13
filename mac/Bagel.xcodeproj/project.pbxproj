@@ -3,17 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1191142A21F8B9CB00BFCA48 /* CURLRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191142921F8B9CB00BFCA48 /* CURLRepresentation.swift */; };
 		8A814D05228ECCED0049A64E /* DetailSectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A814D04228ECCED0049A64E /* DetailSectionProtocol.swift */; };
 		8A814D07229025FF0049A64E /* VerticallyCenteredTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A814D06229025FF0049A64E /* VerticallyCenteredTextFieldCell.swift */; };
-		9AAA3A9C54B46F8D2C8DD674 /* Pods_Bagel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E3BE2EECB0984D92EFCA30 /* Pods_Bagel.framework */; };
 		BC1F5B37216746D30045C871 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F5B36216746D30045C871 /* FontManager.swift */; };
 		BC32643621738AF0006452FE /* KeyValueRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC32643521738AF0006452FE /* KeyValueRepresentation.swift */; };
-		BC5E76C9216A64DB000F658D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E76C8216A64DB000F658D /* Theme.swift */; };
+		BC5E76C9216A64DB000F658D /* Theme+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5E76C8216A64DB000F658D /* Theme+Extensions.swift */; };
 		BC61DA752162B976000F6D2F /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61DA742162B976000F6D2F /* DetailViewModel.swift */; };
 		BC61DA782162BD68000F6D2F /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61DA772162BD68000F6D2F /* OverviewViewController.swift */; };
 		BC73DFAE215BFB18002E533B /* BagelPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC73DFAD215BFB18002E533B /* BagelPublisher.swift */; };
@@ -27,9 +26,9 @@
 		BC7E67E9216E192800E1289E /* DataImageRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7E67E8216E192800E1289E /* DataImageRepresentation.swift */; };
 		BC7E67EB216E193300E1289E /* DataTextRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7E67EA216E193300E1289E /* DataTextRepresentation.swift */; };
 		BC911A422168C00500B755D4 /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC911A412168C00500B755D4 /* NSColor.swift */; };
-		BC911A442168E10F00B755D4 /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC911A432168E10F00B755D4 /* LightTheme.swift */; };
+		BC911A442168E10F00B755D4 /* LightTheme+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC911A432168E10F00B755D4 /* LightTheme+Extensions.swift */; };
 		BC911A472168EB0A00B755D4 /* ContentBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC911A462168EB0A00B755D4 /* ContentBar.swift */; };
-		BC911A492168F27700B755D4 /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC911A482168F27700B755D4 /* DarkTheme.swift */; };
+		BC911A492168F27700B755D4 /* DarkTheme+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC911A482168F27700B755D4 /* DarkTheme+Extensions.swift */; };
 		BC9C779721634D3400E8ADE8 /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C779621634D3400E8ADE8 /* OverviewViewModel.swift */; };
 		BC9C779A21634D4F00E8ADE8 /* KeyValueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C779921634D4F00E8ADE8 /* KeyValueViewModel.swift */; };
 		BC9C779C21634E7900E8ADE8 /* KeyValueTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C779B21634E7900E8ADE8 /* KeyValueTableCellView.swift */; };
@@ -96,6 +95,29 @@
 		BCFC854C213848FD001EC6D7 /* BagelProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC854B213848FD001EC6D7 /* BagelProjectModel.swift */; };
 		BCFC854E2138490E001EC6D7 /* BagelDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC854D2138490E001EC6D7 /* BagelDeviceModel.swift */; };
 		BCFC855021384981001EC6D7 /* BagelPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC854F21384981001EC6D7 /* BagelPacket.swift */; };
+		E775971C2C946E320039D75F /* NSColor+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775970A2C946E320039D75F /* NSColor+ThemeKit.swift */; };
+		E775971D2C946E320039D75F /* ThemeGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597142C946E320039D75F /* ThemeGradient.swift */; };
+		E775971E2C946E320039D75F /* UserTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775971A2C946E320039D75F /* UserTheme.swift */; };
+		E775971F2C946E320039D75F /* NSImage+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775970C2C946E320039D75F /* NSImage+ThemeKit.swift */; };
+		E77597202C946E320039D75F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597052C946E320039D75F /* Common.swift */; };
+		E77597212C946E320039D75F /* NSView+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775970E2C946E320039D75F /* NSView+ThemeKit.swift */; };
+		E77597222C946E320039D75F /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597172C946E320039D75F /* ThemeManager.swift */; };
+		E77597232C946E320039D75F /* NSWindow+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775970F2C946E320039D75F /* NSWindow+ThemeKit.swift */; };
+		E77597242C946E320039D75F /* ThemeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597152C946E320039D75F /* ThemeImage.swift */; };
+		E77597252C946E320039D75F /* String+Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597102C946E320039D75F /* String+Substring.swift */; };
+		E77597262C946E320039D75F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597122C946E320039D75F /* Theme.swift */; };
+		E77597272C946E320039D75F /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597082C946E320039D75F /* LightTheme.swift */; };
+		E77597282C946E320039D75F /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597062C946E320039D75F /* DarkTheme.swift */; };
+		E77597292C946E320039D75F /* NSDictionary+UserTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775970B2C946E320039D75F /* NSDictionary+UserTheme.swift */; };
+		E775972A2C946E320039D75F /* NSObject+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E775970D2C946E320039D75F /* NSObject+ThemeKit.swift */; };
+		E775972B2C946E320039D75F /* SystemTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597112C946E320039D75F /* SystemTheme.swift */; };
+		E775972C2C946E320039D75F /* Thread+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597192C946E320039D75F /* Thread+ThemeKit.swift */; };
+		E775972D2C946E320039D75F /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597132C946E320039D75F /* ThemeColor.swift */; };
+		E775972E2C946E320039D75F /* ThemeManager+ObjectiveC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597182C946E320039D75F /* ThemeManager+ObjectiveC.swift */; };
+		E775972F2C946E320039D75F /* NotificationName+ThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597092C946E320039D75F /* NotificationName+ThemeKit.swift */; };
+		E77597302C946E320039D75F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E77597072C946E320039D75F /* Info.plist */; };
+		E77597342C946F0D0039D75F /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = E77597332C946F0D0039D75F /* CocoaAsyncSocket */; };
+		E77597372C946F380039D75F /* Highlightr in Frameworks */ = {isa = PBXBuildFile; productRef = E77597362C946F380039D75F /* Highlightr */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,13 +138,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E3BE2EECB0984D92EFCA30 /* Pods_Bagel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bagel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1191142921F8B9CB00BFCA48 /* CURLRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURLRepresentation.swift; sourceTree = "<group>"; };
 		8A814D04228ECCED0049A64E /* DetailSectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSectionProtocol.swift; sourceTree = "<group>"; };
 		8A814D06229025FF0049A64E /* VerticallyCenteredTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticallyCenteredTextFieldCell.swift; sourceTree = "<group>"; };
 		BC1F5B36216746D30045C871 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		BC32643521738AF0006452FE /* KeyValueRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueRepresentation.swift; sourceTree = "<group>"; };
-		BC5E76C8216A64DB000F658D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BC5E76C8216A64DB000F658D /* Theme+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Theme+Extensions.swift"; sourceTree = "<group>"; };
 		BC61DA742162B976000F6D2F /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		BC61DA772162BD68000F6D2F /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		BC73DFAD215BFB18002E533B /* BagelPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelPublisher.swift; sourceTree = "<group>"; };
@@ -136,9 +157,9 @@
 		BC7E67E8216E192800E1289E /* DataImageRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataImageRepresentation.swift; sourceTree = "<group>"; };
 		BC7E67EA216E193300E1289E /* DataTextRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTextRepresentation.swift; sourceTree = "<group>"; };
 		BC911A412168C00500B755D4 /* NSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
-		BC911A432168E10F00B755D4 /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		BC911A432168E10F00B755D4 /* LightTheme+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LightTheme+Extensions.swift"; sourceTree = "<group>"; };
 		BC911A462168EB0A00B755D4 /* ContentBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBar.swift; sourceTree = "<group>"; };
-		BC911A482168F27700B755D4 /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		BC911A482168F27700B755D4 /* DarkTheme+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DarkTheme+Extensions.swift"; sourceTree = "<group>"; wrapsLines = 0; };
 		BC9C779621634D3400E8ADE8 /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
 		BC9C779921634D4F00E8ADE8 /* KeyValueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueViewModel.swift; sourceTree = "<group>"; };
 		BC9C779B21634E7900E8ADE8 /* KeyValueTableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueTableCellView.swift; sourceTree = "<group>"; };
@@ -212,8 +233,28 @@
 		BCFC854B213848FD001EC6D7 /* BagelProjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelProjectModel.swift; sourceTree = "<group>"; };
 		BCFC854D2138490E001EC6D7 /* BagelDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelDeviceModel.swift; sourceTree = "<group>"; };
 		BCFC854F21384981001EC6D7 /* BagelPacket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelPacket.swift; sourceTree = "<group>"; };
-		CF8C8D13D8DDE9F8E381A103 /* Pods-Bagel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bagel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bagel/Pods-Bagel.release.xcconfig"; sourceTree = "<group>"; };
-		D3BC1136B2E3E3417E241E77 /* Pods-Bagel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bagel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bagel/Pods-Bagel.debug.xcconfig"; sourceTree = "<group>"; };
+		E77597052C946E320039D75F /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E77597062C946E320039D75F /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		E77597072C946E320039D75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77597082C946E320039D75F /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		E77597092C946E320039D75F /* NotificationName+ThemeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+ThemeKit.swift"; sourceTree = "<group>"; };
+		E775970A2C946E320039D75F /* NSColor+ThemeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+ThemeKit.swift"; sourceTree = "<group>"; };
+		E775970B2C946E320039D75F /* NSDictionary+UserTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDictionary+UserTheme.swift"; sourceTree = "<group>"; };
+		E775970C2C946E320039D75F /* NSImage+ThemeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+ThemeKit.swift"; sourceTree = "<group>"; };
+		E775970D2C946E320039D75F /* NSObject+ThemeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ThemeKit.swift"; sourceTree = "<group>"; };
+		E775970E2C946E320039D75F /* NSView+ThemeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSView+ThemeKit.swift"; sourceTree = "<group>"; };
+		E775970F2C946E320039D75F /* NSWindow+ThemeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSWindow+ThemeKit.swift"; sourceTree = "<group>"; };
+		E77597102C946E320039D75F /* String+Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Substring.swift"; sourceTree = "<group>"; };
+		E77597112C946E320039D75F /* SystemTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTheme.swift; sourceTree = "<group>"; };
+		E77597122C946E320039D75F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E77597132C946E320039D75F /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		E77597142C946E320039D75F /* ThemeGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeGradient.swift; sourceTree = "<group>"; };
+		E77597152C946E320039D75F /* ThemeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeImage.swift; sourceTree = "<group>"; };
+		E77597162C946E320039D75F /* ThemeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeKit.h; sourceTree = "<group>"; };
+		E77597172C946E320039D75F /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		E77597182C946E320039D75F /* ThemeManager+ObjectiveC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThemeManager+ObjectiveC.swift"; sourceTree = "<group>"; };
+		E77597192C946E320039D75F /* Thread+ThemeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thread+ThemeKit.swift"; sourceTree = "<group>"; };
+		E775971A2C946E320039D75F /* UserTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,7 +262,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AAA3A9C54B46F8D2C8DD674 /* Pods_Bagel.framework in Frameworks */,
+				E77597372C946F380039D75F /* Highlightr in Frameworks */,
+				E77597342C946F0D0039D75F /* CocoaAsyncSocket in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +290,6 @@
 				1191142921F8B9CB00BFCA48 /* CURLRepresentation.swift */,
 			);
 			path = CURLRepresentation;
-			sourceTree = "<group>";
-		};
-		659EF5768D424A8F8EEB1541 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				00E3BE2EECB0984D92EFCA30 /* Pods_Bagel.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8A814D03228EC5DB0049A64E /* Cells */ = {
@@ -329,9 +363,9 @@
 			isa = PBXGroup;
 			children = (
 				BCF47D03216BA0B400BC144A /* TextStyles.swift */,
-				BC5E76C8216A64DB000F658D /* Theme.swift */,
-				BC911A432168E10F00B755D4 /* LightTheme.swift */,
-				BC911A482168F27700B755D4 /* DarkTheme.swift */,
+				BC5E76C8216A64DB000F658D /* Theme+Extensions.swift */,
+				BC911A432168E10F00B755D4 /* LightTheme+Extensions.swift */,
+				BC911A482168F27700B755D4 /* DarkTheme+Extensions.swift */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -452,8 +486,6 @@
 				BCD0E038210F5E0D00CE5C7B /* BagelTests */,
 				BCD0E043210F5E0D00CE5C7B /* BagelUITests */,
 				BCD0E024210F5E0D00CE5C7B /* Products */,
-				DE6C4711091F42DCE97894B2 /* Pods */,
-				659EF5768D424A8F8EEB1541 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -470,6 +502,7 @@
 		BCD0E025210F5E0D00CE5C7B /* Bagel */ = {
 			isa = PBXGroup;
 			children = (
+				E77596D82C946DF00039D75F /* ThemeKit */,
 				BC911A3F2168BC7F00B755D4 /* Themes */,
 				BC1F5B35216746CA0045C871 /* Fonts */,
 				BC75A80921737A7300A2A5B3 /* jsonViewer */,
@@ -642,13 +675,41 @@
 			path = BagelController;
 			sourceTree = "<group>";
 		};
-		DE6C4711091F42DCE97894B2 /* Pods */ = {
+		E77596D82C946DF00039D75F /* ThemeKit */ = {
 			isa = PBXGroup;
 			children = (
-				D3BC1136B2E3E3417E241E77 /* Pods-Bagel.debug.xcconfig */,
-				CF8C8D13D8DDE9F8E381A103 /* Pods-Bagel.release.xcconfig */,
+				E775971B2C946E320039D75F /* Sources */,
 			);
-			name = Pods;
+			path = ThemeKit;
+			sourceTree = "<group>";
+		};
+		E775971B2C946E320039D75F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E77597052C946E320039D75F /* Common.swift */,
+				E77597062C946E320039D75F /* DarkTheme.swift */,
+				E77597072C946E320039D75F /* Info.plist */,
+				E77597082C946E320039D75F /* LightTheme.swift */,
+				E77597092C946E320039D75F /* NotificationName+ThemeKit.swift */,
+				E775970A2C946E320039D75F /* NSColor+ThemeKit.swift */,
+				E775970B2C946E320039D75F /* NSDictionary+UserTheme.swift */,
+				E775970C2C946E320039D75F /* NSImage+ThemeKit.swift */,
+				E775970D2C946E320039D75F /* NSObject+ThemeKit.swift */,
+				E775970E2C946E320039D75F /* NSView+ThemeKit.swift */,
+				E775970F2C946E320039D75F /* NSWindow+ThemeKit.swift */,
+				E77597102C946E320039D75F /* String+Substring.swift */,
+				E77597112C946E320039D75F /* SystemTheme.swift */,
+				E77597122C946E320039D75F /* Theme.swift */,
+				E77597132C946E320039D75F /* ThemeColor.swift */,
+				E77597142C946E320039D75F /* ThemeGradient.swift */,
+				E77597152C946E320039D75F /* ThemeImage.swift */,
+				E77597162C946E320039D75F /* ThemeKit.h */,
+				E77597172C946E320039D75F /* ThemeManager.swift */,
+				E77597182C946E320039D75F /* ThemeManager+ObjectiveC.swift */,
+				E77597192C946E320039D75F /* Thread+ThemeKit.swift */,
+				E775971A2C946E320039D75F /* UserTheme.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -658,11 +719,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCD0E049210F5E0D00CE5C7B /* Build configuration list for PBXNativeTarget "Bagel" */;
 			buildPhases = (
-				0FE167996174E966D4196302 /* [CP] Check Pods Manifest.lock */,
 				BCD0E01F210F5E0D00CE5C7B /* Sources */,
 				BCD0E020210F5E0D00CE5C7B /* Frameworks */,
 				BCD0E021210F5E0D00CE5C7B /* Resources */,
-				583C57879823A703C3A5CC55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -744,6 +803,10 @@
 				Base,
 			);
 			mainGroup = BCD0E01A210F5E0D00CE5C7B;
+			packageReferences = (
+				E77597322C946F0D0039D75F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
+				E77597352C946F380039D75F /* XCRemoteSwiftPackageReference "Highlightr" */,
+			);
 			productRefGroup = BCD0E024210F5E0D00CE5C7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -762,6 +825,7 @@
 			files = (
 				BCEB9AB3217CD264008BBF3C /* Effra_Std_Md.ttf in Resources */,
 				BC75A81121737A7300A2A5B3 /* jquery.js in Resources */,
+				E77597302C946E320039D75F /* Info.plist in Resources */,
 				BCEB9AB4217CD264008BBF3C /* Effra_Std_Rg.ttf in Resources */,
 				BCFC852821383150001EC6D7 /* Devices.storyboard in Resources */,
 				BC75A81321737AEB00A2A5B3 /* json-viewer-light-theme.css in Resources */,
@@ -795,53 +859,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0FE167996174E966D4196302 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bagel-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		583C57879823A703C3A5CC55 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bagel/Pods-Bagel-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
-				"${BUILT_PRODUCTS_DIR}/Highlightr/Highlightr.framework",
-				"${BUILT_PRODUCTS_DIR}/macOSThemeKit/macOSThemeKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Highlightr.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/macOSThemeKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bagel/Pods-Bagel-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCD0E01F210F5E0D00CE5C7B /* Sources */ = {
@@ -891,8 +908,8 @@
 				BCEB9AA6217C9532008BBF3C /* ContentRepresentation.swift in Sources */,
 				BC911A422168C00500B755D4 /* NSColor.swift in Sources */,
 				BC9C779F2163528E00E8ADE8 /* RequestHeadersViewModel.swift in Sources */,
-				BC911A492168F27700B755D4 /* DarkTheme.swift in Sources */,
-				BC911A442168E10F00B755D4 /* LightTheme.swift in Sources */,
+				BC911A492168F27700B755D4 /* DarkTheme+Extensions.swift in Sources */,
+				BC911A442168E10F00B755D4 /* LightTheme+Extensions.swift in Sources */,
 				BCD0E029210F5E0D00CE5C7B /* ViewController.swift in Sources */,
 				BC1F5B37216746D30045C871 /* FontManager.swift in Sources */,
 				BCA60B522162655000B9DCAD /* FlatTableHeaderCell.swift in Sources */,
@@ -900,7 +917,7 @@
 				BC9C779C21634E7900E8ADE8 /* KeyValueTableCellView.swift in Sources */,
 				BC7E67E9216E192800E1289E /* DataImageRepresentation.swift in Sources */,
 				BC9C779A21634D4F00E8ADE8 /* KeyValueViewModel.swift in Sources */,
-				BC5E76C9216A64DB000F658D /* Theme.swift in Sources */,
+				BC5E76C9216A64DB000F658D /* Theme+Extensions.swift in Sources */,
 				BC9C779721634D3400E8ADE8 /* OverviewViewModel.swift in Sources */,
 				BCFC855021384981001EC6D7 /* BagelPacket.swift in Sources */,
 				BCE21E3E2162C15900A65B29 /* KeyValueListViewController.swift in Sources */,
@@ -913,6 +930,26 @@
 				BCFC853921383D79001EC6D7 /* DetailViewController.swift in Sources */,
 				BCA60B50216256FD00B9DCAD /* BaseTableHeaderView.swift in Sources */,
 				BCA60B482162403F00B9DCAD /* PacketsViewModel.swift in Sources */,
+				E775971C2C946E320039D75F /* NSColor+ThemeKit.swift in Sources */,
+				E775971D2C946E320039D75F /* ThemeGradient.swift in Sources */,
+				E775971E2C946E320039D75F /* UserTheme.swift in Sources */,
+				E775971F2C946E320039D75F /* NSImage+ThemeKit.swift in Sources */,
+				E77597202C946E320039D75F /* Common.swift in Sources */,
+				E77597212C946E320039D75F /* NSView+ThemeKit.swift in Sources */,
+				E77597222C946E320039D75F /* ThemeManager.swift in Sources */,
+				E77597232C946E320039D75F /* NSWindow+ThemeKit.swift in Sources */,
+				E77597242C946E320039D75F /* ThemeImage.swift in Sources */,
+				E77597252C946E320039D75F /* String+Substring.swift in Sources */,
+				E77597262C946E320039D75F /* Theme.swift in Sources */,
+				E77597272C946E320039D75F /* LightTheme.swift in Sources */,
+				E77597282C946E320039D75F /* DarkTheme.swift in Sources */,
+				E77597292C946E320039D75F /* NSDictionary+UserTheme.swift in Sources */,
+				E775972A2C946E320039D75F /* NSObject+ThemeKit.swift in Sources */,
+				E775972B2C946E320039D75F /* SystemTheme.swift in Sources */,
+				E775972C2C946E320039D75F /* Thread+ThemeKit.swift in Sources */,
+				E775972D2C946E320039D75F /* ThemeColor.swift in Sources */,
+				E775972E2C946E320039D75F /* ThemeManager+ObjectiveC.swift in Sources */,
+				E775972F2C946E320039D75F /* NotificationName+ThemeKit.swift in Sources */,
 				BCFC853621383650001EC6D7 /* PacketsViewController.swift in Sources */,
 				BCD0E027210F5E0D00CE5C7B /* AppDelegate.swift in Sources */,
 				BC9C77AF216385E600E8ADE8 /* DataJSONViewController.swift in Sources */,
@@ -1013,7 +1050,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -1066,25 +1103,30 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
 		BCD0E04A210F5E0D00CE5C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3BC1136B2E3E3417E241E77 /* Pods-Bagel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Bagel/Bagel.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 9GQHJJCND3;
 				INFOPLIST_FILE = Bagel/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yagiz.Bagel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1094,16 +1136,20 @@
 		};
 		BCD0E04B210F5E0D00CE5C7B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF8C8D13D8DDE9F8E381A103 /* Pods-Bagel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Bagel/Bagel.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 9GQHJJCND3;
 				INFOPLIST_FILE = Bagel/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yagiz.Bagel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1120,7 +1166,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WJ26RLBF55;
 				INFOPLIST_FILE = BagelTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yagiz.BagelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -1137,7 +1187,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WJ26RLBF55;
 				INFOPLIST_FILE = BagelTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yagiz.BagelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -1153,7 +1207,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WJ26RLBF55;
 				INFOPLIST_FILE = BagelUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yagiz.BagelUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -1169,7 +1227,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = WJ26RLBF55;
 				INFOPLIST_FILE = BagelUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yagiz.BagelUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -1217,6 +1279,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E77597322C946F0D0039D75F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.6.5;
+			};
+		};
+		E77597352C946F380039D75F /* XCRemoteSwiftPackageReference "Highlightr" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raspu/Highlightr";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E77597332C946F0D0039D75F /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E77597322C946F0D0039D75F /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+		E77597362C946F380039D75F /* Highlightr */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E77597352C946F380039D75F /* XCRemoteSwiftPackageReference "Highlightr" */;
+			productName = Highlightr;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BCD0E01B210F5E0D00CE5C7B /* Project object */;
 }

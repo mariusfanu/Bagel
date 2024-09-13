@@ -1,5 +1,5 @@
 //
-//  DarkTheme.swift
+//  LightTheme.swift
 //  Bagel
 //
 //  Created by Yagiz Gurgul on 6.10.2018.
@@ -7,40 +7,39 @@
 //
 
 import Cocoa
-import macOSThemeKit
 
-extension DarkTheme {
-    
+
+extension LightTheme {
     var contentTextColor: NSColor {
         return NSColor(calibratedRed: 0.1, green: 0.1, blue: 0.3, alpha: 1.0)
     }
     
     @objc var controlBackgroundColor: NSColor {
-        return NSColor(hexString: "#1D1D1D")
-    }
-    
-    @objc var labelColor: NSColor {
         return NSColor.white
     }
     
+    @objc var labelColor: NSColor {
+        return NSColor.darkGray
+    }
+    
     @objc var secondaryLabelColor: NSColor {
-        return NSColor(hexString: "#9C9C9C")
+        return NSColor.lightGray
     }
     
     @objc var contentBarColor: NSColor {
-        return NSColor(hexString: "#3A3A3A")
+        return NSColor(hexString: "#f4f4f4")
     }
     
     @objc var gridColor: NSColor {
-        return NSColor(hexString: "#2A2A2A")
+        return NSColor(hexString: "#F0F0F0")
     }
     
     @objc var seperatorColor: NSColor {
-        return NSColor(hexString: "#2A2A2A")
+        return NSColor(hexString: "#F0F0F0")
     }
     
     @objc var rowSelectedColor: NSColor {
-        return NSColor(hexString: "#2A2A2A")
+        return NSColor(hexString: "#F0F0F0")
     }
     
     @objc var statusGreenColor: NSColor {
@@ -64,34 +63,35 @@ extension DarkTheme {
     }
     
     @objc var deviceListBackgroundColor: NSColor {
-        return NSColor(hexString: "#262626")
+        return NSColor(hexString: "#F6F6F6")
     }
     
     @objc var deviceRowSelectedColor: NSColor {
-        return NSColor(hexString: "#3A3A3A")
+        return NSColor(hexString: "#ffffff")
     }
     
     @objc var packetListAndDetailBackgroundColor: NSColor {
-        return NSColor(hexString: "#323232")
+        return NSColor(hexString: "#F0F0F0")
     }
 }
 
-extension DarkTheme {
+extension LightTheme {
     
     
     @objc var clearIcon: NSImage {
-        return NSImage(named: NSImage.Name("TrashIconDark"))!
+        return NSImage(named: NSImage.Name("TrashIcon"))!
     }
     
     @objc var copyToClipboardIcon: NSImage {
-        return NSImage(named: NSImage.Name("CopyIconDark"))!
+        return NSImage(named: NSImage.Name("CopyIcon"))!
     }
 }
 
-extension DarkTheme {
+
+extension LightTheme {
     
     @objc var httpMethodGetColor: NSColor {
-        return NSColor(hexString: "#00b894")
+        return NSColor(hexString: "#00cec9")
     }
     
     @objc var httpMethodPostColor: NSColor {

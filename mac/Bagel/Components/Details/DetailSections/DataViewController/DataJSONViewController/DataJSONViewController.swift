@@ -8,7 +8,7 @@
 
 import Cocoa
 import WebKit
-import macOSThemeKit
+
 import Highlightr
 
 class DataJSONViewController: BaseViewController {

@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import macOSThemeKit
+
 
 class KeyValueListViewController: BaseViewController, DetailSectionProtocol {
 
